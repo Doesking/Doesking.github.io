@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .column {
+            width: 45%;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <h2>个人信息</h2>
+            <p>姓名：郭锦航</p>
+            <p>年龄：22岁</p>
+            <p>班级：21130424</p>
+            <p>简介：一名平平无奇的大学生，喜欢摄影，喜欢音乐，喜欢一切美好事物</p>
+        </div>
+        <div class="column">
+            <h2>摄影作品展示</h2>
+            <img src="1.jpg" alt="秋光">
+            <p>秋日</p>
+             <img src="2.jpg" alt="秋叶">
+            <p>秋日</p>
+            <img src="3.jpg" alt="落叶">
+            <p>秋日</p>
+        </div>
+    </div>
+</body>
+
+</html>
